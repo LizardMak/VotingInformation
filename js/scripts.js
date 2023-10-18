@@ -1,6 +1,6 @@
-window.onload = function() {
+window.onload = function () {
   let form = document.querySelector('form');
-  form.onsubmit = function(e) {
+  form.onsubmit = function (e) {
     const inputAge = parseInt(document.getElementById("inputAge").value);
     e.preventDefault();
     if (inputAge >= 18) {
